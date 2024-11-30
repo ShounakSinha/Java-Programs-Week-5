@@ -5,3 +5,10 @@ abstract class LibraryItem
     abstract public void borrow();
     abstract public void return();
   }
+class Book extends LibraryItem
+  {
+  }
+class Magazine extends LibraryItem
+  {
+  }
+
