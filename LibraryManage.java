@@ -28,8 +28,21 @@ abstract class LibraryItem
   }
 class Book extends LibraryItem
   {
-    LibraryItem()
+    private String title, author, ISBN;
+    private int year;
+    Book()
     {
+      title="";
+      author="";
+      ISBN="";
+      year=0;
+    }
+    Book(String title, String author, String ISBN, int year)
+    {
+      this.title=title;
+      this.author=author;
+      this.ISBN=ISBN;
+      this.year=year;
     }
   }
 class Magazine extends LibraryItem
