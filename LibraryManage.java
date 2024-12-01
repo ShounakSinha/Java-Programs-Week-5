@@ -28,7 +28,13 @@ abstract class LibraryItem
   }
 class Book extends LibraryItem
   {
+    LibraryItem()
+    {
+    }
   }
 class Magazine extends LibraryItem
   {
+    Magazine()
+    {
+    }
   }
