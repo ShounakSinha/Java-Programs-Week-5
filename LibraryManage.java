@@ -47,7 +47,20 @@ class Book extends LibraryItem
   }
 class Magazine extends LibraryItem
   {
+    private String title, publisher, ISBN;
+    private int year;
     Magazine()
     {
+      title="";
+      author="";
+      ISBN="";
+      year=0;
+    }
+    Magazine(String title, String publisher, String ISBN, int year)
+    {
+      this.title=title;
+      this.author=author;
+      this.ISBN=ISBN;
+      this.year=year;
     }
   }
